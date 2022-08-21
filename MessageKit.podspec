@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
    s.swift_version = '5.5'
 
-   s.ios.deployment_target = '14.0'
+   s.ios.deployment_target = '13.0'
    s.ios.resources = 'Sources/Assets.xcassets'
 
    s.dependency 'InputBarAccessoryView', '~> 6.0'
